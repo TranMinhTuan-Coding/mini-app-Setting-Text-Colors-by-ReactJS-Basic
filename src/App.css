@@ -1,0 +1,256 @@
+.main-setting-box{
+  height: 300px;
+  width: 1700px;
+
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+/* color-picker-box */
+.color-picker-box{
+  height: 100%;
+  width: 1000px;
+
+  border: 3px solid rgb(35, 124, 35);
+  border-radius: 20px 20px 20px 20px;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.color-picker-box-title{
+  background-color: burlywood;
+  height: 60px;
+  width: 993px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+
+  border: 3px solid rgb(45, 45, 187);
+  border-radius: 20px 20px 20px 20px;
+
+  position: absolute;
+  top: -39px;
+}
+.colors-list-box{
+  background-color: burlywood;
+  height: 227px;
+  width: 993px;
+
+  border: 3px solid rgb(45, 45, 187);
+  border-radius: 20px 20px 20px 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0px;
+}
+.colors-list-box span{
+  cursor: pointer;
+  height: 200px;
+  width: 40px;
+}
+/* size-setting-box */
+.size-setting-box{
+  background-color: red;
+  height: 50%;
+  width: 500px;
+  background-color: burlywood;
+
+  border: 3px solid rgb(45, 45, 187);
+  border-radius: 10px 10px 10px 10px;
+
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.size-setting-box-title{
+  background-color: aqua;
+  height: 30px;
+  width: 495px;
+
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+
+  border: 3px solid rgb(45, 45, 187);
+  border-radius: 10px 10px 10px 10px;
+
+  position: absolute;
+  top: -20px;
+}
+
+.size-setting-box-buttons{
+  background-color: aquamarine;
+  height: 50px;
+  width: 150px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border: 2px solid rgb(59, 59, 205);
+  border-radius: 10px 10px 10px 10px;
+
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%,0);
+}
+.size-setting-box-buttons button{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+
+  cursor: pointer;
+
+  border: 2px solid brown;
+  border-radius: 20px 20px 20px 20px;
+}
+.reset-button{
+  height: 80px;
+  width: 100px;
+
+  border: 2px solid rgb(59, 59, 190);
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  background-color: aquamarine;
+  transition: all 0.1s ease-in-out;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+
+  position: absolute;
+  right: 400px;
+  bottom: 30px;
+}
+.reset-button:hover{
+  background-color: black;
+  color: white;
+}
+
+/* content-box */
+.content-box{
+  height: 256px;
+  width: 1000px;
+  border: 2px solid green;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  left: 50%;
+  top: 130px;
+  transform: translate(-50%,0);
+}
+.content-box-color-title{
+  height: 25px;
+  width: 100%;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: brown;
+
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+.content-box-font-size-title{
+  height: 25px;
+  width: 100%;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: brown;
+
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+.clear-content-button{
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  background-color: aqua;
+  transition: all 0.2s ease-in-out;
+
+  height: 39px;
+  width: 144px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: brown;
+  position: absolute;
+  right: 17px;
+  top: 13px;
+}
+.clear-content-button:hover{
+  background-color: black;
+
+  color: white;
+}
+.content-box-input{
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.content-box-input input{
+  width: 99%;
+  height: 96%;
+  border: 2px solid brown;
+  border-radius: 20px 20px 20px 20px;
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: light;
+  color: brown;
+}
+.chosen-color{
+  border: 5px solid black;
+  border-radius: 20px 20px 20px 20px;
+  height: 250px;
+  width: 60px;
+
+  position: relative;
+}
+.chosen-color::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 6px;
+  background: brown;
+  left: -4px;
+  top: 206px;
+  margin-left: 1px;
+  
+  border-radius: 20px 20px 20px 20px;
+}
+.chosen-color::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 6px;
+  background: brown;
+  left: -4px;
+  top: -12px;
+  margin-left: 1px;
+  
+  border-radius: 20px 20px 20px 20px;
+}
